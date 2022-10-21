@@ -39,8 +39,7 @@
                 </div>
                 <div class="image_section">
                     <div class="big">
-
-                        <img loading="lazy" style="display: block;" id="mySlides" class="mySlides" src="1/redgrape1.png" alt="">
+                        <img loading="lazy" style="display: block;" id="mySlides" class="mySlides" src="red_grape/1_redgrape.JPG" alt="">
                         <div class="btn_section">
                             <button onclick="location.href='xman_sblue.html'"><img src="King'sTobaccoAssets/icons8-left-arrow-50.png" alt=""></button>
                             <div class="btn_p_section">
@@ -52,10 +51,10 @@
                         </div>
                     </div>
                     <div class="list_img">
-                        <img loading="lazy" id="one" class="img_active" src="1/redgrape1.png" alt="">
-                        <img style="visibility: hidden;" loading="lazy" id="two" src="1/redgrape1.png" alt="">
-                        <img style="visibility: hidden;" loading="lazy" id="three" src="1/redgrape1.png" alt="">
-                        <img style="visibility: hidden;" loading="lazy" id="four" src="1/redgrape1.png" alt="">
+                        <img loading="lazy" id="one" class="img_active" src="red_grape/1_redgrape.JPG" alt="">
+                        <img loading="lazy" id="two" src="red_grape/2_redgrape.JPG" alt="">
+                        <img loading="lazy" id="three" src="red_grape/3_redgrape.JPG" alt="">
+                        <img loading="lazy" id="four" src="red_grape/4_redgrape.JPG" alt="">
                     </div>
                 </div>
             </div>
@@ -65,11 +64,11 @@
 
                         <tr>
                             <td class="col1">BLEND</td>
-                            <td>Virginia</td>
+                            <td>American</td>
                         </tr>
                         <tr>
                             <td class="col1">FLAOUR</td>
-                            <td>RED GRAPE</td>
+                            <td>RED GRAPE CAPSULE</td>
                         </tr>
                         <tr>
                             <td class="col1">LENGTH</td>
@@ -121,7 +120,7 @@
         <div class="main_section">
             <div class="mleft">
                 <div class="left_head">
-                    <h1>X Man <br> SS Red Grape Click</h1>
+                    <h1>X Man <br> SS RED GRAPE CAPSULE Click</h1>
                     <ul>
                         <li>With LSS technology</li>
                         <li>Low smoke smell</li>
@@ -130,7 +129,10 @@
                 <div class="image_section">
                     <div class="big">
                         <div class="ads_sponsors">
-
+                            <img loading="lazy" id="one" src="red_grape/1_redgrape.JPG" alt="">
+                            <img loading="lazy" id="two" src="red_grape/2_redgrape.JPG" alt="">
+                            <img loading="lazy" id="three" src="red_grape/3_redgrape.JPG" alt="">
+                            <img loading="lazy" id="four" src="red_grape/4_redgrape.JPG" alt="">
                         </div>
                         <div class="btn_section">
                             <button onclick="location.href='xman_sblue.html'"><img src="King'sTobaccoAssets/icons8-left-arrow-50.png" alt=""></button>
@@ -150,11 +152,11 @@
 
                         <tr>
                             <td class="col1">BLEND</td>
-                            <td>Virginia</td>
+                            <td>American</td>
                         </tr>
                         <tr>
                             <td class="col1">FLAOUR</td>
-                            <td>RED GRAPE</td>
+                            <td>RED GRAPE CAPSULE</td>
                         </tr>
                         <tr>
                             <td class="col1">LENGTH</td>
@@ -210,14 +212,11 @@
         var two = document.getElementById("two");
         var three = document.getElementById("three");
         var four = document.getElementById("four");
-        var five = document.getElementById("five");
-        var video = document.getElementById("video");
 
         var mySlides = document.getElementById("mySlides")
         one.addEventListener('click', () => {
-
-            video.style.display = "block";
-            mySlides.style.display = "none";
+            mySlides.style.display = "block";
+            mySlides.src = "red_grape/1_redgrape.JPG"
             one.classList.add("img_active")
 
             two.classList.remove("img_active")
@@ -226,9 +225,8 @@
             five.classList.remove("img_active")
         });
         two.addEventListener('click', () => {
-            video.style.display = "none";
             mySlides.style.display = "block";
-            mySlides.src = "King'sTobaccoAssets/black.png"
+            mySlides.src = "red_grape/2_redgrape.JPG"
             two.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -237,9 +235,8 @@
             five.classList.remove("img_active")
         });
         three.addEventListener('click', () => {
-            video.style.display = "none";
             mySlides.style.display = "block";
-            mySlides.src = "King'sTobaccoAssets/black.png"
+            mySlides.src = "red_grape/3_redgrape.JPG"
             three.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -248,26 +245,14 @@
             five.classList.remove("img_active")
         });
         four.addEventListener('click', () => {
-            video.style.display = "none";
             mySlides.style.display = "block";
-            mySlides.src = "King'sTobaccoAssets/black.png"
+            mySlides.src = "red_grape/4_redgrape.JPG"
             four.classList.add("img_active")
 
             one.classList.remove("img_active")
             three.classList.remove("img_active")
             two.classList.remove("img_active")
             five.classList.remove("img_active")
-        });
-        five.addEventListener('click', () => {
-            video.style.display = "none";
-            mySlides.style.display = "block";
-            mySlides.src = "King'sTobaccoAssets/black.png"
-            five.classList.add("img_active")
-
-            one.classList.remove("img_active")
-            three.classList.remove("img_active")
-            two.classList.remove("img_active")
-            four.classList.remove("img_active")
         });
     </script>
 </body>
