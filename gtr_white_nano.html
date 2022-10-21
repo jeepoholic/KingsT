@@ -39,19 +39,18 @@
                 </div>
                 <div class="image_section">
                     <div class="big">
-                        <video id="video" class="mySlides" src="gtr_assets/GTR NANO WHITE.m4v" controls poster="1/18.jpg">
-                        </video>
-                        <img loading="lazy" id="mySlides" class="mySlides" src="King'sTobaccoAssets/A/PCKR0715.jpg" alt="">
+                        <video id="video" class="mySlides" src="gtr_assets/GTR NANO WHITE.m4v" controls poster="gtr_assets/gtr_white_nano.jpg"></video>
+                        <img loading="lazy" id="mySlides" class="mySlides" src="gtr_assets/gtr_white_nano.jpg" alt="">
                         <div class="btn_section" style="justify-content: start;">
                             <button onclick="location.href='gtr_black_nano.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-right-arrow-50.png" alt=""></button>
                         </div>
                     </div>
                     <div class="list_img ">
                         <img loading="lazy" id="one" class="img_active" src="gtr_assets/gtr_white_nano.jpg" alt="">
-                        <img loading="lazy" id="two" src="1/18.jpg" alt="">
-                        <img loading="lazy" id="three" src="2/18.jpg" alt="">
-                        <img loading="lazy" id="four" src="3/18.jpg" alt="">
-                        <img loading="lazy" id="five" src="4/18.jpg" alt="">
+                        <img loading="lazy" id="two" src="gtr_assets/gtr_white_nano.jpg" alt="">
+                        <!-- <img loading="lazy" id="three" src="gtr_assets/gtr_white_nano.jpg" alt=""> -->
+                        <!-- <img loading="lazy" id="four" src="3/18.jpg" alt="">
+                        <img loading="lazy" id="five" src="4/18.jpg" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -123,12 +122,11 @@
                 <div class="image_section">
                     <div class="big">
                         <div class="ads_sponsors">
-                            <video id="video" class="mySlides" src="gtr_assets/GTR NANO WHITE.m4v" controls>
-                                </video>
+                            <video id="video" class="mySlides" src="gtr_assets/GTR NANO WHITE.m4v" poster="gtr_assets/gtr_white_nano.jpg" controls></video>
                             <img loading="lazy" id="two" src="gtr_assets/gtr_white_nano.jpg" alt="">
-                            <img loading="lazy" id="three" src="2/18.jpg" alt="">
+                            <!-- <img loading="lazy" id="three" src="2/18.jpg" alt="">
                             <img loading="lazy" id="four" src="3/18.jpg" alt="">
-                            <img loading="lazy" id="five" src="4/18.jpg" alt="">
+                            <img loading="lazy" id="five" src="4/18.jpg" alt=""> -->
                         </div>
                         <div class="btn_section">
                             <button onclick="location.href='gtr_black_nano.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-right-arrow-50.png" alt=""></button>
@@ -204,7 +202,7 @@
 
         var mySlides = document.getElementById("mySlides")
         one.addEventListener('click', () => {
-            video.src="videos/18.m4v";
+            video.src="gtr_assets/GTR NANO WHITE.m4v";
             video.style.display = "block";
             mySlides.style.display = "none";
             one.classList.add("img_active")
@@ -218,7 +216,7 @@
             video.style.display = "none";
             video.src="";
             mySlides.style.display = "block";
-            mySlides.src = "1/18.jpg"
+            mySlides.src = "gtr_assets/gtr_white_nano.jpg"
             two.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -230,7 +228,7 @@
             video.style.display = "none";
             video.src="";
             mySlides.style.display = "block";
-            mySlides.src = "2/18.jpg"
+            mySlides.src = ""
             three.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -242,7 +240,7 @@
             video.style.display = "none";
             video.src="";
             mySlides.style.display = "block";
-            mySlides.src = "3/18.jpg"
+            mySlides.src = ""
             four.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -254,7 +252,7 @@
             video.style.display = "none";
             video.src="";
             mySlides.style.display = "block";
-            mySlides.src = "4/18.jpg"
+            mySlides.src = ""
             five.classList.add("img_active")
 
             one.classList.remove("img_active")

@@ -39,25 +39,24 @@
                 </div>
                 <div class="image_section">
                     <div class="big">
-                     <video id="video" class="mySlides" src="videos/2.m4v" controls poster="1/4.jpg">
-                        </video>
+                        <video id="video" class="mySlides" src="" controls poster=""></video>
                         <img loading="lazy" class="mySlides" id="mySlides" src="King'sTobaccoAssets/A/PCKR0715.jpg" alt="">
                         <div class="btn_section">
                             <button onclick="location.href='cobra_nano_white.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-left-arrow-50.png" alt=""></button>
-                            <div class="btn_p_section">
+                            <!-- <div class="btn_p_section">
                                 <p class="p_tag">.</p>
                                 <p class="p_tag">.</p>
                                 <p class="p_tag">.</p>
                             </div>
-                            <button onclick="location.href='cobra_nano_white.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-right-arrow-50.png" alt=""></button>
+                            <button onclick="location.href='cobra_nano_white.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-right-arrow-50.png" alt=""></button> -->
                         </div>
                     </div>
                     <div class="list_img ">
-                       <img loading="lazy" id="one" class="img_active" src="4/1.jpg" alt="">
-                        <img loading="lazy" id="two" src="1/4.jpg" alt="">
-                        <img loading="lazy" id="three" src="2/4.jpg" alt="">
-                        <img loading="lazy" id="four" src="3/1.jpg" alt="">
-                        <img loading="lazy" id="five" src="4/1.jpg" alt="">
+                        <img loading="lazy" id="one" class="img_active" src="cobra_assets/1.JPG" alt="">
+                        <img loading="lazy" id="two" src="cobra_assets/1.JPG" alt="">
+                        <img loading="lazy" id="three" src="cobra_assets/2.JPG" alt="">
+                        <img loading="lazy" id="four" src="cobra_assets/3.JPG" alt="">
+                        <img loading="lazy" id="five" src="cobra_assets/title.JPG" alt="">
                     </div>
                 </div>
             </div>
@@ -67,12 +66,12 @@
 
                         <tr>
                             <td class="col1">BLEND</td>
-                            <td>Virginia</td>
+                            <td>American</td>
                         </tr>
                         
                         <tr>
                             <td class="col1">LENGTH</td>
-                            <td>56 mm</td>
+                            <td>83 mm</td>
                         </tr>
                         <tr>
                             <td class="col1">RETAIL SIZE</td>
@@ -129,21 +128,20 @@
                 <div class="image_section">
                     <div class="big">
                         <div class="ads_sponsors">
-                            <video id="video" class="mySlides" src="videos/2.m4v" controls>
-                                </video>
-                            <img loading="lazy" id="two" src="1/4.jpg" alt="">
-                        <img loading="lazy" id="three" src="2/4.jpg" alt="">
-                        <img loading="lazy" id="four" src="3/1.jpg" alt="">
-                        <img loading="lazy" id="five" src="4/1.jpg" alt="">
+                            <video id="video" class="mySlides" src="" controls></video>
+                            <img loading="lazy" id="two" src="cobra_assets/1.JPG" alt="">
+                            <img loading="lazy" id="three" src="cobra_assets/2.JPG" alt="">
+                            <img loading="lazy" id="four" src="cobra_assets/3.JPG" alt="">
+                            <img loading="lazy" id="five" src="cobra_assets/title.JPG" alt="">
                         </div>
                        <div class="btn_section">
                             <button onclick="location.href='cobra_nano_white.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-left-arrow-50.png" alt=""></button>
-                            <div class="btn_p_section">
+                            <!-- <div class="btn_p_section">
                                 <p class="p_tag">.</p>
                                 <p class="p_tag">.</p>
                                 <p class="p_tag">.</p>
                             </div>
-                            <button onclick="location.href='cobra_nano_white.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-right-arrow-50.png" alt=""></button>
+                            <button onclick="location.href='cobra_nano_white.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-right-arrow-50.png" alt=""></button> -->
                         </div>
                     </div>
                 </div>
@@ -154,12 +152,12 @@
 
                     <tr>
                         <td class="col1">BLEND</td>
-                        <td>Virginia</td>
+                        <td>American</td>
                     </tr>
                     
                     <tr>
                         <td class="col1">LENGTH</td>
-                        <td>56 mm</td>
+                        <td>83 mm</td>
                     </tr>
                     <tr>
                         <td class="col1">RETAIL SIZE</td>
@@ -214,7 +212,7 @@
 
         var mySlides = document.getElementById("mySlides")
         one.addEventListener('click', () => {
-            video.src = "videos/2.m4v"
+            video.src = "";
             video.style.display = "block";
             mySlides.style.display = "none";
             one.classList.add("img_active")
@@ -228,7 +226,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "1/4.jpg"
+            mySlides.src = "cobra_assets/1.JPG"
             two.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -240,7 +238,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "2/4.jpg"
+            mySlides.src = "cobra_assets/2.JPG"
             three.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -252,7 +250,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "3/1.jpg"
+            mySlides.src = "cobra_assets/3.JPG"
             four.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -264,7 +262,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "4/1.jpg"
+            mySlides.src = "cobra_assets/title.JPG"
             five.classList.add("img_active")
 
             one.classList.remove("img_active")
