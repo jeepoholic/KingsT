@@ -12,6 +12,40 @@ body {
     background-color: #c5c7c4;
     color: black;
     font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+
+.para
+{
+    font-size: large;
+}
+
+
+.hero_video_div
+{
+    margin-top: 20%;
+}
+
+.about_us_hero_video 
+{
+    height: 55vh;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* .hero_video_div_mob
+{
+    margin-top: 20%;
+} */
+
+.about_us_hero_video_mob
+{
+    height: 25vh;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 
@@ -53,6 +87,15 @@ body {
     cursor: pointer;
 }
 
+.para
+{
+    font-size: large !important;
+}
+
+.content
+{
+ margin: 20px;
+}
 
 /* right side content */
 
