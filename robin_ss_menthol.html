@@ -39,9 +39,9 @@
                 </div>
                 <div class="image_section">
                     <div class="big">
-                        <video id="video" class="mySlides" src="robin_new_assets/robin_ss_blue/robin_ss_blue_video.m4v" controls poster="robin_new_assets/robin_ss_blue/robin_ss_blue_photo.jpg">
+                        <video id="video" class="mySlides" src="robin_new_assets/robin_ss_menthol/Robin ss Menthol.mp4" controls poster="robin_new_assets/robin_ss_menthol/1.jpg">
                         </video>
-                        <img loading="lazy"  id="mySlides" class="mySlides" src="robin_new_assets/robin_ss_blue/robin_ss_blue_photo.jpg" alt="">
+                        <img loading="lazy"  id="mySlides" class="mySlides" src="robin_new_assets/robin_ss_menthol/1.jpg" alt="">
                         
                         <div class="btn_section">
                           <button onclick="location.href='robin_ss_black.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-left-arrow-50.png" alt=""></button>
@@ -51,13 +51,13 @@
                               <p class="p_tag">.</p>
                           </div>
                           <button onclick="location.href='robin_ss_red.html'"><img loading="lazy" src="King'sTobaccoAssets/icons8-right-arrow-50.png" alt=""></button>
-                      </div>
+                        </div>
                     </div>
-                    <div class="list_img ">
-                        <img  loading="lazy" id="one" class="img_active" src="robin_new_assets/robin_ss_blue/robin_ss_blue_photo.jpg" alt="">
-                        <img loading="lazy"  id="two" src="robin_new_assets/robin_ss_blue/robin_ss_blue_photo.jpg" alt="">
-                        <img style="visibility: hidden;"  loading="lazy"  id="three" src="2/15.jpg" alt="">
-                        <img style="visibility: hidden;"  loading="lazy"  id="four" src="3/15.jpg" alt="">
+                    <div class="list_img">
+                        <img  loading="lazy" id="one" class="img_active" src="robin_new_assets/robin_ss_menthol/1.jpg" alt="">
+                        <img loading="lazy"  id="two" src="robin_new_assets/robin_ss_menthol/1.jpg" alt="">
+                        <img loading="lazy"  id="three" src="robin_new_assets/robin_ss_menthol/2.jpg" alt="">
+                        <img loading="lazy"  id="four" src="robin_new_assets/robin_ss_menthol/3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -99,6 +99,9 @@
             </div>
         </div>
     </div>
+
+
+
     <div class="section_mobile">
         <div class="mhead">
             <div class="drop-menu">
@@ -210,7 +213,7 @@
 
         var mySlides = document.getElementById("mySlides")
         one.addEventListener('click', () => {
-            video.src = "robin_new_assets/robin_ss_blue/robin_ss_blue_video.m4v";
+            video.src = "robin_new_assets/robin_ss_menthol/Robin ss Menthol.mp4";
             video.style.display = "block";
             mySlides.style.display = "none";
             one.classList.add("img_active")
@@ -224,7 +227,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "robin_new_assets/robin_ss_blue/robin_ss_blue_photo.jpg"
+            mySlides.src = "robin_new_assets/robin_ss_menthol/1.jpg"
             two.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -236,7 +239,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "2/15.jpg"
+            mySlides.src = "robin_new_assets/robin_ss_menthol/2.jpg"
             three.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -248,7 +251,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "3/15.jpg"
+            mySlides.src = "robin_new_assets/robin_ss_menthol/3.jpg"
             four.classList.add("img_active")
 
             one.classList.remove("img_active")
@@ -260,7 +263,7 @@
             video.style.display = "none";
             video.src = "";
             mySlides.style.display = "block";
-            mySlides.src = "4/15.jpg"
+            mySlides.src = "";
             five.classList.add("img_active")
 
             one.classList.remove("img_active")
